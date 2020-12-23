@@ -1,5 +1,6 @@
 import React from "react";
 import Clock from "./Clock";
+import Toggle from "./Toggle";
 
 function formatName(user) {
   return `${user.firstName} ${user.lastName}`;
@@ -26,6 +27,8 @@ class App extends React.Component {
         <WelcomeHeader secondUser={secondUser} />
         <Welcome name="Tadzio" />
         <Clock />
+        <hr />
+        <Toggle></Toggle>
       </div>
     );
   }
