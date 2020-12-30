@@ -2,6 +2,7 @@ import React from "react";
 import Clock from "./Clock";
 import Toggle from "./Toggle";
 import List from "./MainConcepts/ListAndKeys";
+import SimpleForm from "./MainConcepts/Forms01";
 
 function formatName(user) {
   return `${user.firstName} ${user.lastName}`;
@@ -32,6 +33,8 @@ class App extends React.Component {
         <Toggle></Toggle>
         <hr />
         <List />
+        <hr />
+        <SimpleForm></SimpleForm>
       </div>
     );
   }
